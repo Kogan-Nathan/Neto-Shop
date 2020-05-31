@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/neto-shop/static/css/main.7d047a6d.chunk.css",
+    "main.js": "/neto-shop/static/js/main.f0864ed4.chunk.js",
+    "main.js.map": "/neto-shop/static/js/main.f0864ed4.chunk.js.map",
+    "runtime-main.js": "/neto-shop/static/js/runtime-main.1f54f0f0.js",
+    "runtime-main.js.map": "/neto-shop/static/js/runtime-main.1f54f0f0.js.map",
+    "static/js/2.f9b7a83a.chunk.js": "/neto-shop/static/js/2.f9b7a83a.chunk.js",
+    "static/js/2.f9b7a83a.chunk.js.map": "/neto-shop/static/js/2.f9b7a83a.chunk.js.map",
+    "index.html": "/neto-shop/index.html",
+    "precache-manifest.24c4df41d0d7e506218905f61acd3395.js": "/neto-shop/precache-manifest.24c4df41d0d7e506218905f61acd3395.js",
+    "service-worker.js": "/neto-shop/service-worker.js",
+    "static/css/main.7d047a6d.chunk.css.map": "/neto-shop/static/css/main.7d047a6d.chunk.css.map",
+    "static/js/2.f9b7a83a.chunk.js.LICENSE.txt": "/neto-shop/static/js/2.f9b7a83a.chunk.js.LICENSE.txt",
+    "static/media/Apple-Series-5 Silver-Aluminum-Case-Smartwatch-img1.jpg": "/neto-shop/static/media/Apple-Series-5 Silver-Aluminum-Case-Smartwatch-img1.9602f972.jpg",
+    "static/media/Apple-Series-5 Silver-Aluminum-Case-Smartwatch-img2.jpg": "/neto-shop/static/media/Apple-Series-5 Silver-Aluminum-Case-Smartwatch-img2.5483bf10.jpg",
+    "static/media/Apple-iMac-Compute-img1.jpg": "/neto-shop/static/media/Apple-iMac-Compute-img1.ab3c3b6b.jpg",
+    "static/media/Apple-iMac-Computer-img2.jpg": "/neto-shop/static/media/Apple-iMac-Computer-img2.4048fd1f.jpg",
+    "static/media/LG-V-Series-Sprint-Smartphone-V40-thinQ-img1.jpg": "/neto-shop/static/media/LG-V-Series-Sprint-Smartphone-V40-thinQ-img1.e877f2b9.jpg",
+    "static/media/LG-V-Series-Sprint-Smartphone-V40-thinQ-img2.jpg": "/neto-shop/static/media/LG-V-Series-Sprint-Smartphone-V40-thinQ-img2.650fc26a.jpg",
+    "static/media/Razer-Basilisk-Ultimate-Mouse-img1.jpg": "/neto-shop/static/media/Razer-Basilisk-Ultimate-Mouse-img1.fb2f7906.jpg",
+    "static/media/Razer-Wolverine-Tournament-Edition-Cotroller-img1.jpg": "/neto-shop/static/media/Razer-Wolverine-Tournament-Edition-Cotroller-img1.eadf38bc.jpg",
+    "static/media/Razer-Wolverine-Tournament-Edition-Cotroller-img2.jpg": "/neto-shop/static/media/Razer-Wolverine-Tournament-Edition-Cotroller-img2.28be6f94.jpg",
+    "static/media/apple_airpods_pro_img1.jpg": "/neto-shop/static/media/apple_airpods_pro_img1.e762715d.jpg",
+    "static/media/apple_airpods_pro_img2.jpg": "/neto-shop/static/media/apple_airpods_pro_img2.878ae525.jpg",
+    "static/media/aurora-r8-computer-img1.jpg": "/neto-shop/static/media/aurora-r8-computer-img1.bcc4764d.jpg",
+    "static/media/dell_alienware_aurora_r8-img2.jpg": "/neto-shop/static/media/dell_alienware_aurora_r8-img2.84fd341a.jpg",
+    "static/media/microsoft-surface-egronomic-keboard-img1.jpg": "/neto-shop/static/media/microsoft-surface-egronomic-keboard-img1.a6ecb7a9.jpg",
+    "static/media/microsoft-surface-egronomic-keboard-img2.jpg": "/neto-shop/static/media/microsoft-surface-egronomic-keboard-img2.91cecdc0.jpg",
+    "static/media/myself-mini.jpg": "/neto-shop/static/media/myself-mini.b7679a83.jpg",
+    "static/media/notebook-inspiron-17-img1.jpg": "/neto-shop/static/media/notebook-inspiron-17-img1.558d45ed.jpg",
+    "static/media/notebook-inspiron-17-img2.jpg": "/neto-shop/static/media/notebook-inspiron-17-img2.20ab55c4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f54f0f0.js",
+    "static/js/2.f9b7a83a.chunk.js",
+    "static/css/main.7d047a6d.chunk.css",
+    "static/js/main.f0864ed4.chunk.js"
+  ]
+}
