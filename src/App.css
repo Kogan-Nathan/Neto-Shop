@@ -1,0 +1,409 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(247, 247, 247);
+  font-size: calc(0.45em + 0.55vw);
+}
+.Header{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background: -webkit-linear-gradient(to bottom, rgba(255, 140, 0, 0.212), rgb(247, 247, 247)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, rgba(255, 140, 0, 0.212), rgb(247, 247, 247)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#Capa_1{
+  padding: 5px;
+}
+.Content{
+  display: inline;
+}
+.Main{
+  min-height: 100vh;
+}
+.Footer{
+  padding: 15px 0px;
+}
+.Footer-Content{
+  background-color: rgb(247, 247, 247);
+}
+.Header-home{
+  width: 60%;
+}
+.Header-nav{
+  width: 40%;
+}
+.Nav-home{
+  margin: 7px 0px;
+  width: fit-content;
+}
+.Nav-home:active, .Nav-home:visited, .Nav-home{
+  text-decoration: none;
+}
+h1 .Nav-home:hover{
+  color: darkorange;
+}
+.Nav-link:active, .Nav-link:visited, .Nav-link{
+  text-decoration: underline darkorange;
+  padding: 3px;
+}
+.Nav-link:active, .Nav-cart:active, .Nav-home:active, .Nav-link:visited, .Nav-cart:visited, .Nav-home:visited, .Nav-home, .Nav-link, .Nav-cart{
+  color: black;
+}
+.Nav-link:hover{
+  text-decoration: none;
+}
+.Nav-cart{
+  padding-left: 10px;
+}
+.Nav-cart:hover{
+  color: darkorange;
+}
+.Nav-menu{
+  margin: 0px;
+  padding: 0.5em;
+}
+.Nav-menu:hover{
+  background-color: white;
+}
+.container{
+  margin: 5px;
+  display: inline-block;
+}
+.card{
+  display: inline-block;
+  border: 1px solid rgb(194, 194, 194);
+  width: 400px;
+  padding: 10px 0px 5px 0px;
+  background-color: white;
+  box-shadow: 0px 0px 3px #888888;
+}
+.Specific{
+  margin: 10px;
+}
+.User-Link{
+  position: relative;
+}
+.User-nav{
+  background-color: white;
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  margin-left: -90px;
+  padding: 5px 0px;
+  z-index: 1;
+  border: 1px solid darkorange;
+  border-radius: 5px;
+  width: 180px;
+  flex-direction: column;
+}
+.User-Link .User-nav::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* Places the arrow at the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border: 5px solid;
+  border-color: transparent transparent darkorange transparent;
+}
+.User-Link:hover .User-nav{
+  display: block;
+}
+.User-Settings{
+  display: block;
+  width: 75%;
+  margin: auto;
+}
+.User-SideBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+  height: fit-content;
+  border-radius: 5px;
+  padding: 5px;
+}
+.User-Border{
+  width: 90%;
+}
+.Row{
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.Strong, .Faint{
+  width: 45%;
+  text-align: left;
+  display: inline-block;
+}
+.Strong{
+  font-weight: bold;
+}
+.Faint{
+  color: #717171;
+}
+.Hidden{
+  display: none;
+}
+.Area{
+  background-color: rgb(236, 236, 236);
+}
+.Ad{
+  position: relative;
+  margin: 10px auto;
+  padding: 10px;
+  width: 600px;
+  height: 75px;
+  background: -webkit-linear-gradient(to right, #9ae3fc, #f7d5f6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(81deg, rgba(247,213,246,1) 15%,rgba(148,225,250,1) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1px solid rgb(194, 194, 194);
+}
+.Ad h3{
+  width: auto;
+  font-size: calc(0.9em + 0.6vw);
+  margin: 15px;
+}
+.Ad .Cursor{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.Ad #Capa_1{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.Button{
+  border: 1px solid darkorange;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: transparent;
+  margin: 5px;
+  font-size: inherit;
+}
+.Button{
+  transition: background-color 1s;
+  letter-spacing: 0.07em;
+}
+.Button:hover{
+  background-color: rgba(255, 140, 0, 0.26);
+}
+.Signup-Form{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: auto;
+}
+.Signup-Label{
+  padding: 0.5em;
+  letter-spacing: 0.07em;
+  font-size: inherit;
+}
+.Signup-Input{
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 5px;
+  letter-spacing: 0.07em;
+}
+.Cursor{
+  cursor: pointer;
+}
+.Product{
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.Product-Brand{
+  font-size: 1.6em;
+}
+.Product-img{
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0px auto 7px ;
+  border: 1px solid rgba(255, 140, 0, 0.356);
+  object-fit: scale-down;
+}
+.Product-Description{
+  background-color: rgba(238, 238, 238, 0.945);
+  width: 400px;
+  height: 400px;
+  display: grid;
+  margin: 10px 0px;
+}
+.Product-container{
+  overflow: auto;
+}
+.Deal-container{
+  position: relative;
+  margin: 0px auto 7px ;
+}
+.Deal{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 140, 0, 0.3);
+  width: 50px;
+  padding: 7px;
+}
+.Deal p{
+  margin: 0px;
+}
+.Suggested-Product-img{
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0px auto 7px ;
+  border: 1px solid rgba(255, 140, 0, 0.356);
+  padding: 4px;
+  object-fit: scale-down;
+}
+.Self-img{
+  width: 300px;
+  margin: 0px 7px ;
+  border: 1px solid rgba(255, 140, 0, 0.356);
+  padding: 4px;
+  background-color: white;
+  box-shadow: 1px 1px 5px #888888;
+}
+.Product-Limited{
+  color: rgb(248, 50, 0);
+}
+.Lower{
+  margin-top: 15px;
+}
+.Amount-Button{
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  padding: 0px;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  margin: 0px 3px;
+}
+.Slide{
+  display: inline-block;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+input:disabled{
+  background-color: rgba(255, 140, 0, 0.089);
+}
+
+@media screen and (max-width: 1050px){
+  .Product {flex-direction: column;}
+}
+
+@media screen and (max-width: 750px){
+  .Ad {width: 550px;}
+  .container{width: 90%;}
+  .card{width:99%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+  .Inline{
+    display: inline-block;
+  }
+  .Product-container{display: inline-block;}
+  .Slide,.Suggested-Product-img{margin: 0px 5px;}
+  .Product-container{width: 100%;}
+  .User-main{margin: auto;}
+  .User-nav{width: 150px;}
+  .flex{flex-direction: column; margin: 5px 0px;}
+}
+
+@media screen and (max-width: 600px){
+  .Ad {width: 90%;}
+  .Ad h3{  font-size: calc(1.2em + 0.6vw);}
+  .Nav-menu{font-size: 1.5em;}
+  .User-nav{width: 120px;}
+  .User-Link .User-nav::after{left: 70%;}
+  .Ad #Capa_1{width:18px; height:18px;}
+  .Product-img, .Suggested-Product-img{width: 150px; height: 150px;}
+  .Product-Description{width: 300px; height: 300px;}
+  .Deal{width: 30px; height: 30px;}
+}
+
+@media screen and (max-width: 450px){
+  .Footer-Content {display:flex; flex-direction: column;}
+  .Nav-menu{font-size: 1.2em;}
+  .Self-img{width: 250px;}
+}
+
+@media screen and (max-width: 350px){
+  .Self-img{width: 170px;}
+  .Nav-menu{font-size: 1em; padding: 0.2em;}
+  .Product-img, .Suggested-Product-img{width: 100px; height: 100px;}
+  .Deal{width: 25px; height: 25px;}
+}
+.shake-vertical {
+  -webkit-animation: shake-vertical 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	animation: shake-vertical 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@keyframes shake-vertical {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-6px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateY(6px);
+  }
+  80% {
+    transform: translateY(4.4px);
+  }
+  90% {
+    transform: translateY(-4.4px);
+  }
+}
+
+@-webkit-keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+  80% {
+    -webkit-transform: translateY(4.4px);
+            transform: translateY(4.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-4.4px);
+            transform: translateY(-4.4px);
+  }
+}
