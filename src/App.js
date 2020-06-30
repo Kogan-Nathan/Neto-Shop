@@ -15,8 +15,6 @@ import Checkout from './Components/Checkout';
 import { useSelector } from 'react-redux'
 
 
-
-
 export default function App() {
 
   const users = useSelector(state=>state.users)

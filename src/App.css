@@ -201,10 +201,15 @@ h1 .Nav-home:hover{
 }
 .Signup-Input{
   width: 200px;
-  border: 1px solid lightgray;
-  border-radius: 3px;
-  padding: 5px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 7px;
+  margin-left: 5px;
   letter-spacing: 0.07em;
+  background-color: transparent;
+}
+.Signup-Input:focus{
+  outline: none;
 }
 .Cursor{
   cursor: pointer;
