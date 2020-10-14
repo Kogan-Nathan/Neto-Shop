@@ -8,4 +8,5 @@ email: youremail@gmail.com
 
 password: 123456789
 
+enjoy it here: kogan-nathan.github.io/neto-shop/
 This project will most likely be updated so I would love to get your reviews!
