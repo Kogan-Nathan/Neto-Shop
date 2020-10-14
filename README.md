@@ -8,6 +8,6 @@ email: youremail@gmail.com
 
 password: 123456789
 
-link in decription
+link for gh-pages in decription
 
 This project will most likely be updated so I would love to get your reviews!
